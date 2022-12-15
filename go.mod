@@ -1,4 +1,4 @@
-module github.com/ucan-wg/go-ucan
+module github.com/gulitsky/go-ucan
 
 go 1.15
 
