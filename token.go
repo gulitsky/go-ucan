@@ -29,7 +29,7 @@ var ErrInvalidToken = errors.New("invalid access token")
 
 const (
 	// UCANVersion is the current version of the UCAN spec
-	UCANVersion = "0.7.0"
+	UCANVersion = "0.8.1"
 	// UCANVersionKey is the key used in version headers for the UCAN spec
 	UCANVersionKey = "ucv"
 	// PrfKey denotes "Proofs" in a UCAN. Stored in JWT Claims
@@ -39,7 +39,7 @@ const (
 	// AttKey denotes "Attenuations" in a UCAN. Stored in JWT Claims
 	AttKey = "att"
 	// CapKey indicates a resource Capability. Used in an attenuation
-	CapKey = "cap"
+	CapKey = "can"
 )
 
 // Token is a JSON Web Token (JWT) that contains special keys that make the
